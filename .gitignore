@@ -1,0 +1,23 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter and editor artifacts
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Local outputs / generated artifacts
+output.txt
+sisfall_3class_final.csv
+fall_detection_model.json
+fall_detection_scaler.pkl
+
+# Raw dataset (large / external source)
+SisFall_dataset/
+sisfall/*.zip
